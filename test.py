@@ -3,6 +3,7 @@ import openai
 from crewai import Agent, Task, Crew, Process
 from langchain.tools import DuckDuckGoSearchRun
 from dotenv import load_dotenv, find_dotenv
+import pandas as pd
 
 
 load_dotenv(find_dotenv())
